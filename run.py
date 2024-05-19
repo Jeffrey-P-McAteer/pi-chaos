@@ -30,7 +30,7 @@ def leibniz_sum_to(term_num):
   return sum([leibniz_seq(k) for k in range(0, term_num)])
 
 def main(args=sys.argv):
-  print(f'leibniz_sum_to(250000) = {leibniz_sum_to(250000)}')
+  print(f'leibniz_sum_to(5000000) = {leibniz_sum_to(5000000)}')
 
 
 
